@@ -33,7 +33,13 @@ router.get('/:id', (req, res) => {
       }
     ]     
   })
-  .then(categoryData => res.json(categoryData))
+  .then(categoryData => {
+    if (!categoryData) {
+      res.status(404).json({ message: 'No Category found with this id' });
+      return;
+  }
+    res.json(categoryData)
+  })
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
@@ -45,7 +51,7 @@ router.post('/', (req, res) => {
   Category.create({
     category_name: req.body.category_name
   })
-  .then(dbPostData => res.json(dbPostData))
+  .then(categoryData => res.json(categoryData))
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
@@ -64,12 +70,12 @@ router.put('/:id', (req, res) => {
       }
     } 
   )
-  .then(dbPostData => {
-    if (!dbPostData) {
+  .then(categoryData => {
+    if (!categoryData) {
         res.status(404).json({ message: 'No Category found with this id' });
         return;
     }
-    res.json(dbPostData);
+    res.json(categoryData);
   })
   .catch(err => {
     console.log(err);
@@ -85,12 +91,12 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-  .then(dbPostData => {
-    if (!dbPostData) {
+  .then(categoryData => {
+    if (!categoryData) {
         res.status(404).json({ message: 'No Category found with this id' });
         return;
     }
-    res.json(dbPostData);
+    res.json(categoryData);
     })
     .catch(err => {
     console.log(err);

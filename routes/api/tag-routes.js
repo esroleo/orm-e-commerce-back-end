@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
       }
     ]
   })
-  .then(categoryData => res.json(categoryData))
+  .then(TagData => res.json(TagData))
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
@@ -36,12 +36,12 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then(dbUserData => {
-    if (!dbUserData) {
+  .then(TagData => {
+    if (!TagData) {
       res.status(404).json({ message: 'No Tag found with this id' });
       return;
     }
-    res.json(dbUserData);
+    res.json(TagData);
   })
   .catch(err => {
     console.log(err);
@@ -54,7 +54,7 @@ router.post('/', (req, res) => {
   Tag.create({
     tag_name: req.body.tag_name
   })
-  .then(dbPostData => res.json(dbPostData))
+  .then(TagData => res.json(TagData))
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
@@ -73,12 +73,12 @@ router.put('/:id', (req, res) => {
       }
     }
   )
-  .then(dbPostData => {
-    if (!dbPostData) {
+  .then(TagData => {
+    if (!TagData) {
         res.status(404).json({ message: 'No Tag found with this id' });
         return;
     }
-    res.json(dbPostData);
+    res.json(TagData);
   })
   .catch(err => {
     console.log(err);
@@ -93,12 +93,12 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-  .then(dbPostData => {
-    if (!dbPostData) {
+  .then(TagData => {
+    if (!TagData) {
         res.status(404).json({ message: 'No Tag found with this id' });
         return;
     }
-    res.json(dbPostData);
+    res.json(TagData);
     })
     .catch(err => {
     console.log(err);
