@@ -34,16 +34,7 @@ https://github.com/esroleo/orm-e-commerce-back-end
 <a name="usage"></a>
 ## 3. Usage Tips
 
-For more information - Please visit the following videos on how the application works and some background information on OOP build.
-
-Part 1
-
-https://drive.google.com/file/d/1Zyrp9xGGHMUgavJ0maclr-Fy3khwZhAI/view
-
-
-Part 2
-
-https://drive.google.com/file/d/1rrdGjDfXXBAhJCULTVtFThZ9iggzaNVh/view
+For more information - Please visit the following videos on how the application works and some background information on the app build.
 
 If you want to run locally preform the following:
 
@@ -56,6 +47,16 @@ If you are still intersted in running the application you would need to do the f
 * npm run seed
 * npm start
 * use Insomnia (use videos and sample snaphots using Insomnia for Product model.
+
+Part 1
+
+https://drive.google.com/file/d/1Zyrp9xGGHMUgavJ0maclr-Fy3khwZhAI/view
+
+
+Part 2
+
+https://drive.google.com/file/d/1rrdGjDfXXBAhJCULTVtFThZ9iggzaNVh/view
+
 
 <a name="features"></a>
 ## 4. Features
