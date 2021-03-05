@@ -46,7 +46,7 @@ If you are still intersted in running the application you would need to do the f
 * npm i
 * npm run seed
 * npm start
-* use Insomnia (use videos and sample snaphots using Insomnia for Product model.
+* use Insomnia (use videos and sample snapshots using Insomnia for Product model for your reference).
 
 Part 1
 
