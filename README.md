@@ -48,12 +48,13 @@ If you are still intersted in running the application you would need to do the f
 * npm start
 * use Insomnia (use videos and sample snapshots using Insomnia for Product model for your reference).
 
-Part 1
+
+Part 1 - Once you open the video, re-change the quality to 1080p to make sure is not blurry.
 
 https://drive.google.com/file/d/1Zyrp9xGGHMUgavJ0maclr-Fy3khwZhAI/view
 
 
-Part 2
+Part 2 -Once you open the video, re-change the quality to 1080p to make sure is not blurry.
 
 https://drive.google.com/file/d/1rrdGjDfXXBAhJCULTVtFThZ9iggzaNVh/view
 
@@ -117,8 +118,7 @@ npm i
 ## 8. Test Command
 
 You can sync model changes by changing **force: false** to true. This will also remove all data and start fresh.
-
-You can use this for testing or to remove all data.
+Once you have synced, stop the applicatio by using ctrl + c on your keyboard and change the force:true to false and restart the application.
 
 @ server.js line 14
 
