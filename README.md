@@ -64,7 +64,7 @@ https://drive.google.com/file/d/1rrdGjDfXXBAhJCULTVtFThZ9iggzaNVh/view
 
 ### GET (Select All), GET by id (Select by ID), POST (Create), PUT (Update), DELETE (Destroy)
 
-Functionality of one route as example:
+ *** Functionality of one route as example: *** 
 
 ### GET all products.
 
