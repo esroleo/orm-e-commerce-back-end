@@ -120,6 +120,8 @@ npm i
 You can sync model changes by changing **force: false** to true. This will also remove all data and start fresh.
 Once you have synced, stop the applicatio by using ctrl + c on your keyboard and change the force:true to false and restart the application.
 
+Once the above is done, you can now use Insomnia to do the routes commands.
+
 @ server.js line 14
 
 // sync sequelize models to the database, then turn on the server
