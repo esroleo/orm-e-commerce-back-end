@@ -48,9 +48,9 @@ If you are still intersted in running the application you would need to do the f
 * npm start
 * use Insomnia (use videos and sample snapshots using Insomnia for Product model for your reference).
 
-Part 1 - Sync and Seed - Once you open the video, re-change the quality to 1080p to make sure is not blurry.
+Part 1 - Creat, Sync and Seed - Once you open the video, re-change the quality to 1080p to make sure is not blurry.
 
-https://drive.google.com/file/d/1xwN41PLCjv0Jve6eCu-7s_K__iOyoEnf/view
+https://drive.google.com/file/d/1z2XNqvDgF5Hh081kiiVU7YK6Me6oVYZg/view
 
 Part 2 -  Functionality - Once you open the video, re-change the quality to 1080p to make sure is not blurry.
 
